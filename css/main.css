@@ -50,7 +50,6 @@ html {
 
 body {
   margin: 0;
-  height: 100%;
 }
 
 /**
@@ -312,7 +311,7 @@ progress {
 }
 
 a:active {
-  color: #000000;
+  color: #000000
 }
 
 /**
