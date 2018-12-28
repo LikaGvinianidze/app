@@ -189,7 +189,6 @@ img {
   border-style: none;
 }
 
-
 .cls {
   clear: both;
 }
@@ -312,6 +311,10 @@ progress {
   vertical-align: baseline;
 }
 
+a:active {
+  color: #000000;
+}
+
 /**
    * Remove the default vertical scrollbar in IE 10+.
    */
@@ -430,10 +433,11 @@ button {
 }
 
 .sign-up-form {
-  height: 100%;
   display: flex;
-  align-items: center;
-  margin-left: 201px;
+  justify-content: center;
+  width: 50%;
+  height: 70%;
+  padding-top: 200px;
 }
 
 .logo {
@@ -536,7 +540,7 @@ button {
   border: 1px solid #bfb6c6;
   padding-left: 53px;
   color: rgba(0, 0, 0, 0.5);
-  font-family: "robotolight" ; 
+  font-family: "robotolight";
   font-weight: bold;
 }
 
@@ -546,7 +550,6 @@ button {
 
 .form-signup {
   height: 597px;
-
 }
 
 .form-signup .btn-sign-up {
@@ -572,7 +575,6 @@ button {
 }
 
 .form-signup .form-in {
-
   padding: 70px 94px 58px 95px;
 }
 
@@ -623,7 +625,6 @@ header {
   position: absolute;
   bottom: 6px;
   left: -19px;
-
 }
 
 .menu {
@@ -637,7 +638,6 @@ header {
 .bg-leaderboard {
   height: 100% !important;
 }
-
 
 .dots a {
   font-family: "robotolight";
@@ -777,7 +777,7 @@ header {
   font-family: "robotolight";
   font-size: 26px;
   font-weight: bold;
-  color: #FFF;
+  color: #fff;
   margin: 0 auto;
   text-align: center;
   padding: 37px 0px;
@@ -822,7 +822,6 @@ header {
   border-radius: 34px;
   background-color: #ffffff;
   position: relative;
-
 }
 
 .link-text {
@@ -881,7 +880,7 @@ header {
   height: 659px;
   border-radius: 20px;
   background-color: #ffffff;
-  background-image: url('../img/WIN.png');
+  background-image: url("../img/WIN.png");
   background-repeat: no-repeat;
   background-position: 319px 112px;
   margin-left: 30px;
@@ -980,7 +979,6 @@ header {
   font-weight: bold;
   font-size: 14px;
   padding-top: 7px;
-
 }
 
 .read i {
@@ -1016,8 +1014,6 @@ header {
   top: 24px;
 }
 
-
-
 @media only screen and (max-width: 1024px) {
   .form {
     width: 70%;
@@ -1031,6 +1027,12 @@ header {
   .resend {
     width: 100%;
   }
+
+  .sign-up-form {
+    display: block;
+    width: 100%;
+    padding: 0px;
+  }
 }
 
 @media only screen and (max-width: 1440px) {
@@ -1038,6 +1040,12 @@ header {
     position: relative;
     left: 0px;
     top: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .prizes-list {
+    padding-left: 10px;
   }
 }
 
