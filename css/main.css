@@ -33,8 +33,10 @@ font-face {
  */
 
 html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /* Sections
@@ -75,9 +77,12 @@ h1 {
    */
 
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
 
 /**
@@ -86,8 +91,10 @@ hr {
    */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /* Text-level semantics
@@ -108,9 +115,12 @@ a {
    */
 
 abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
 }
 
 /**
@@ -130,8 +140,10 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
@@ -174,6 +186,11 @@ img {
   border-style: none;
 }
 
+
+.cls {
+  clear: both;
+}
+
 /* Forms
      ========================================================================== */
 
@@ -187,11 +204,15 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
-  cursor:pointer;
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  cursor: pointer;
 }
 
 /**
@@ -266,12 +287,18 @@ fieldset {
    */
 
 legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
 }
 
 /**
@@ -297,8 +324,10 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
@@ -316,8 +345,10 @@ textarea {
    */
 
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
@@ -334,8 +365,10 @@ textarea {
    */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /* Interactive
@@ -469,7 +502,7 @@ button {
 }
 
 .not {
-  text-align:center;
+  text-align: center;
   margin: 0 auto;
   display: table;
   width: 297px;
@@ -509,7 +542,8 @@ button {
 }
 
 .form-signup {
-  height: 597px;;
+  height: 597px;
+  ;
 }
 
 .form-signup .btn-sign-up {
@@ -570,32 +604,444 @@ button {
   font-family: "robotolight";
 }
 
+.main-bg {
+  background-color: #f5f5f5;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.dots {
+  float: left;
+  position: absolute;
+  bottom: 6px;
+  left: -19px;
+
+}
+
+.menu {
+  position: relative;
+}
+
+.sign-out {
+  float: left;
+}
+
+.bg-leaderboard {
+  height: 100% !important;
+}
+
+
+.dots a {
+  font-family: "robotolight";
+  font-size: 40px;
+}
+
+.sign-out a {
+  padding-right: 75px;
+  padding-left: 40px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  font-family: "robotolight";
+}
+
+.logo-area {
+  padding-left: 78px;
+  font-size: 26px;
+  color: #000000;
+  font-family: "robotolight";
+  font-weight: bold;
+}
+
+.container {
+  padding-top: 53px;
+  display: flex;
+  justify-content: center;
+}
+
+.leaderboard_in {
+  padding: 52px 47px 57px 48px;
+}
+
+.user {
+  float: right;
+  padding-bottom: 34px;
+}
+
+.user-mail {
+  font-size: 16px;
+  font-family: "robotolight";
+  color: #fff;
+  font-weight: bold;
+  padding-right: 20px;
+  float: left;
+  padding-top: 16px;
+}
+
+.leaderboard {
+  width: 570px;
+  height: 777px;
+  border-radius: 20px;
+  background-color: #6762ff;
+}
+
+.userborder {
+  width: 46px;
+  height: 46px;
+  border: 2px solid #f4d01e;
+  border-right: 2px solid #f4d01e;
+  border-bottom: 2px solid #f4d01e;
+  border-top: 2px solid #6762ff;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+  -webkit-transform: rotate(-45deg);
+}
+
+.userborder i {
+  -webkit-transform: rotate(405deg) !important;
+  color: #fff;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 15px;
+}
+
+.rank {
+  width: 475px;
+  height: 302px;
+  border-radius: 20px;
+  background-color: #2f2d80;
+}
+
+.rank_in {
+  padding: 70px 53px 42px 52px;
+}
+
+.rank-leaderboard i {
+  color: #fff;
+}
+
+.rank-leaderboard i:first-child {
+  padding-right: 20px;
+}
+
+.rank-leaderboard .fa-trophy {
+  padding-left: 20px;
+}
+
+.rectangle {
+  background-color: #9a99c0;
+  border-radius: 1.5px;
+  width: 290px;
+  height: 3px;
+  margin-top: 7px;
+  position: relative;
+}
+
+.square {
+  position: absolute;
+  top: -10px;
+  left: 191px;
+  width: 26px;
+  height: 26px;
+  background-color: #f4d01e;
+  border-radius: 50%;
+}
+
+.rank-leaderboard {
+  display: flex;
+  position: relative;
+}
+
+.lead-text {
+  color: #fff;
+  position: absolute;
+  top: -35px;
+  left: 228px;
+  font-size: 12px;
+  font-family: "robotolight";
+  font-weight: bold;
+}
+
+.ranked-text {
+  width: 253px;
+  height: 51px;
+  font-family: "robotolight";
+  font-size: 26px;
+  font-weight: bold;
+  color: #FFF;
+  margin: 0 auto;
+  text-align: center;
+  padding: 37px 0px;
+}
+
+.invite {
+  text-align: center;
+}
+
+.invite i {
+  color: #aeaec7;
+}
+
+.invite-text {
+  color: #aeaec7;
+  padding-top: 11px;
+  font-family: "robotolight";
+  font-size: 15px;
+}
+
+.refer {
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.refer span {
+  font-family: "robotoregular";
+  color: #fff;
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.refer span:last-child {
+  font-size: 15px;
+  padding-top: 9px;
+}
+
+.link-copy {
+  width: 475px;
+  height: 68px;
+  border-radius: 34px;
+  background-color: #ffffff;
+  position: relative;
+
+}
+
+.link-text {
+  position: absolute;
+  font-size: 20px;
+  font-family: "robotoregular";
+  color: #ababab;
+  left: 54px;
+  top: 23px;
+}
+
+.link-copy i {
+  color: #313131;
+  position: absolute;
+  right: 33px;
+  top: 27px;
+  font-size: 16px;
+}
+
+.link-copy a {
+  color: #313131;
+  position: absolute;
+  right: 63px;
+  top: 26px;
+  font-family: "robotoregular";
+  font-size: 16px;
+}
+
+.socials {
+  padding-top: 41px;
+}
+
+.social {
+  width: 68px;
+  height: 68px;
+  border-radius: 34px;
+  border: 2px solid #ffffff;
+  margin-right: 22px;
+}
+
+.social i {
+  text-align: center;
+  display: table;
+  font-size: 20px;
+  margin: 0 auto;
+  line-height: 68px;
+  color: #fff;
+}
+
+.socials {
+  display: flex;
+}
+
+.prizes {
+  width: 570px;
+  height: 659px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  background-image: url('../img/WIN.png');
+  background-repeat: no-repeat;
+  background-position: 319px 112px;
+  margin-left: 30px;
+}
+
+.prizes-header {
+  padding-top: 47px;
+  padding-left: 69px;
+  font-size: 26px;
+  font-family: "robotolight";
+  font-weight: bold;
+}
+
+.prizes-list {
+  padding-left: 100px;
+  padding-top: 75px;
+}
+
+.token-border {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid #7f85fc;
+}
+
+.token-border span {
+  text-align: center;
+  margin: 0 auto;
+  display: table;
+  line-height: 50px;
+  font-size: 16px;
+  font-family: "robotolight";
+  font-weight: bold;
+}
+
+.token {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.token-text {
+  padding-top: 17px;
+  padding-left: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "robotolight";
+}
+
+.orange {
+  border: 2px solid #ff8c00;
+}
+
+.yellow {
+  border: 2px solid #f4d01e;
+}
+
+.black {
+  border: 2px solid #cdcdcd;
+}
+
+.see {
+  padding-left: 75px;
+  padding-top: 20px;
+  color: #a4a4a4;
+  font-weight: bold;
+  font-family: "robotolight";
+}
+
+.see i {
+  padding-left: 14px;
+}
+
+.how {
+  width: 570px;
+  height: 86px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  margin-top: 57px;
+}
+
+.how-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 34px 69px;
+}
+
+.how-text {
+  font-size: 26px;
+  font-family: "robotolight";
+  font-weight: bold;
+}
+
+.read {
+  color: #a4a4a4;
+  font-family: "robotolight";
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 7px;
+
+}
+
+.read i {
+  padding-left: 12px;
+}
+
+.resend {
+  width: 1768px;
+  height: 63px;
+  background-color: #e8e7f6;
+  border-radius: 20px;
+  margin-top: 68px;
+  display: flex;
+  justify-content: center;
+  margin: 70px auto;
+  position: relative;
+}
+
+.resend-text {
+  line-height: 68px;
+  color: #2b24f7;
+  font-family: "robotolight";
+}
+
+.resend-text a {
+  color: #000000;
+  font-weight: bold;
+}
+
+.x {
+  position: absolute;
+  right: 29px;
+  top: 24px;
+}
+
+
+
 @media only screen and (max-width: 1024px) {
   .form {
-    width:70%;
+    width: 70%;
     margin: 50px;
   }
 }
 
 @media only screen and (max-width: 1440px) {
   .btn-sign-up i {
-   position: relative;
-   left: 0px;
-   top: 0px !important;
+    position: relative;
+    left: 0px;
+    top: 0px !important;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .form {
-   width:70%;
-   margin: 80px auto;
+    width: 70%;
+    margin: 80px auto;
   }
 }
 
 @media only screen and (max-width: 425px) {
   .form-in {
-   padding: 20px 20px !important;
+    padding: 20px 20px !important;
   }
+
   .info {
     width: 100%;
   }
@@ -612,5 +1058,3 @@ button {
     margin: 18px;
   }
 }
-
-
